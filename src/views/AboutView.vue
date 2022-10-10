@@ -1,6 +1,6 @@
 <template>
   <BaseLayout>
-    <div class="container mx-auto px-5">
+    <div class="container mx-auto">
 
       <h5 class="mb-5 font-bold text-center text-xl">
         Рады приветствовать вас от всей команды ООО «ФРС», г. Грозный!

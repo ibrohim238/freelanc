@@ -1,6 +1,6 @@
 <template>
   <BaseLayout>
-    <div class="container mx-auto px-5">
+    <div class="container mx-auto">
       <div>
         <h5 class="text-center text-3xl pb-4">
           Денежные <br> выплаты от государства

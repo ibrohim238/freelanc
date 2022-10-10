@@ -1,6 +1,6 @@
 <template>
   <BaseLayout>
-    <div class="container mx-auto px-5">
+    <div class="container mx-auto">
       <h5 class="font-bold">
         ООО «ФРС»
       </h5>

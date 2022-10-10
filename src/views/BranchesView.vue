@@ -1,6 +1,6 @@
 <template>
   <BaseLayout>
-    <div class="container mx-auto px-5">
+    <div class="container mx-auto">
       <p>
         ФРС имеет представительства в Дагестане, Ингушетии и Осетии для жителей которых
         работает телефон горячей линии
