@@ -9,19 +9,19 @@
           </div>
         </router-link>
         <div class="hidden lg:block mx-auto">
-          <router-link class="p-4" :to="{ name: 'about' }">
+          <router-link class="px-4 py-1 shadow-white hover:border hover:bg-gray-700 rounded" :to="{ name: 'about' }">
             О компании
           </router-link>
-          <router-link class="p-4" :to="{ name: 'individuals' }">
+          <router-link class="px-4 py-1 shadow-white hover:border hover:bg-gray-700 rounded" :to="{ name: 'individuals' }">
             Физическим лицам
           </router-link>
-          <router-link class="p-4" :to="{ name: 'entity' }">
+          <router-link class="px-4 py-1 shadow-white hover:border hover:bg-gray-700 rounded" :to="{ name: 'entity' }">
             Юридическим лицам
           </router-link>
-          <router-link class="p-4" :to="{ name: 'branches'}">
-            Филиалы
+          <router-link class="px-4 py-1 shadow-white hover:border hover:bg-gray-700 rounded" :to="{ name: 'reference'}">
+            Справка
           </router-link>
-          <router-link class="p-4" :to="{ name: 'contacts'}">
+          <router-link class="px-4 py-1 shadow-white hover:border hover:bg-gray-700 rounded" :to="{ name: 'contacts'}">
             Контакты
           </router-link>
         </div>

@@ -4,40 +4,50 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('@/views/HomeView')
+    component: () => import('@/views/HomeView'),
+    meta: {
+      title: 'Главная страница'
+    }
   },
   {
     path: '/about',
     name: 'about',
-    component: () => import('@/views/AboutView')
+    component: () => import('@/views/AboutView'),
+    meta: {
+      title: 'О компании'
+    }
   },
   {
     path: '/contacts',
     name: 'contacts',
-    component: () => import('@/views/ContactView')
-  },
-  {
-    path: '/partners',
-    name: 'partners',
-    component: () => import('@/views/PartnerView')
+    component: () => import('@/views/ContactView'),
+    meta: {
+      title: 'Контакты'
+    }
   },
   {
     path:  '/individuals',
     name: 'individuals',
-    component: () => import('@/views/IndividualsView')
+    component: () => import('@/views/IndividualsView'),
+    meta: {
+      title: 'Физические лица'
+    }
   },
   {
-    path:  '/branches',
-    name: 'branches',
-    component: () => import('@/views/BranchesView'),
+    path:  '/reference',
+    name: 'reference',
+    component: () => import('@/views/ReferenceView'),
     meta: {
-      title: 'qwe'
+      title: 'Справка'
     }
   },
   {
     path:  '/entity',
     name: 'entity',
-    component: () => import('@/views/EntityView')
+    component: () => import('@/views/EntityView'),
+    meta: {
+      title: 'Юридические лица'
+    }
   }
 ]
 
